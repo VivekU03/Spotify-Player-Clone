@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Poppins&family=Roboto+Slab&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    font-family: 'Roboto Slab', serif;  
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 10px;
+}
+
+.player img{
+    width: 37px;
+    padding: 0 4px;
+}
+
+.player{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.container{
+    min-height: 67vh;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url("music banner.webp");
+    justify-content: right;
+    overflow: hidden;
+}
+
+.SongList h1{
+    padding: 0 60px;
+    color:aqua;
+}
+
+.musicItemContainer{
+    margin-top: 20px;
+    width: 396px;
+}
+
+.musicItem{
+    height: 30px;
+    display: flex;
+    background-color: white;
+    color: black; 
+    width: 90%;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.musicItem img{
+    width: 30px;
+    margin:0 15px;
+    border-radius: 30px;
+}
+
+.playTime{
+    margin: 0 12px;
+}
+
+.playTime i{
+    cursor: pointer;
+}
+
+.bottom{
+    position: sticky;
+    height: 85px;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 12px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#progressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.musicWave{
+    position: absolute;
+    right: 10vw;
+    font-family: 'Roboto Slab', serif;
+}
+
+.musicWave img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}

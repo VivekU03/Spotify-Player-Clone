@@ -1,0 +1,44 @@
+@media screen and (max-width:600px) {
+
+    nav ul{
+        overflow: scroll;
+    }
+
+    .player img{
+        width: 24px;
+        
+    }
+    
+    .container{
+        justify-content: center;
+    }
+
+    .SongList h1{
+        padding: 0 42px;
+        font-size: 13px;
+    }
+
+    .musicItem{
+        font-size: 10px;
+    }
+
+    .musicItem img{
+        width: 15px;
+    }
+
+    .bottom{
+        height: 90px;
+    }
+    
+    .icons{
+        padding-top: 28px;
+    }
+
+    .musicWave{
+        Font-size: 10px;
+        padding-bottom: 25px;
+    }
+
+
+    
+}
