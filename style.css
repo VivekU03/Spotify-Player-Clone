@@ -130,6 +130,6 @@ nav ul li{
 
 @media (max-width:576px){
  .musicItemContainer{
-     width: 336px
+     width: 336px !important
  }
 }
