@@ -61,6 +61,9 @@ nav ul li{
 .musicItemContainer{
     margin-top: 20px;
     width: 396px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .musicItem{
